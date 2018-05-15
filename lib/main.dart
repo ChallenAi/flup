@@ -18,6 +18,7 @@ class Flup extends StatelessWidget {
           //   title: new Text('标题'),
           // ),
           bottomNavigationBar: new BottomNavigationBar(
+            type: BottomNavigationBarType.fixed,
             items: <BottomNavigationBarItem>[
               new BottomNavigationBarItem(
                 title: new Text('主页'),
@@ -26,11 +27,23 @@ class Flup extends StatelessWidget {
                 )
               ),
               new BottomNavigationBarItem(
-                title: new Text('我的'),
+                title: new Text('AAA'),
+                icon: new Icon(
+                  Icons.account_box
+                )
+              ),
+              new BottomNavigationBarItem(
+                title: new Text('BBB'),
                 icon: new Icon(
                   Icons.access_time
                 )
-              )
+              ),
+              new BottomNavigationBarItem(
+                title: new Text('我的'),
+                icon: new Icon(
+                  Icons.add_box
+                )
+              ),
             ],
           ),
           body: new Center(
