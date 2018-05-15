@@ -11,9 +11,49 @@ class Flup extends StatelessWidget {
     return new MaterialApp(
       title: 'FlupChat',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: new MyHomePage(title: '首页'),
+          primarySwatch: Colors.grey,
+        ),
+        home: new Scaffold(
+          // appBar: new AppBar(
+          //   title: new Text('标题'),
+          // ),
+          bottomNavigationBar: new BottomNavigationBar(
+            items: <BottomNavigationBarItem>[
+              new BottomNavigationBarItem(
+                title: new Text('主页'),
+                icon: new Icon(
+                  Icons.refresh
+                )
+              ),
+              new BottomNavigationBarItem(
+                title: new Text('我的'),
+                icon: new Icon(
+                  Icons.access_time
+                )
+              )
+            ],
+          ),
+          body: new Center(
+            child: new Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                new Text(
+                  '初始化测试',
+                ),
+                new Text(
+                  '111',
+                  style: Theme.of(context).textTheme.display1,
+                ),
+              ],
+            ),
+          ),
+          floatingActionButton: new FloatingActionButton(
+            onPressed: null,
+            tooltip: 'Increment',
+            child: new Icon(Icons.add),
+          ),
+        )
+
     );
   }
 }
