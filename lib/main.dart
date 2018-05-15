@@ -2,11 +2,14 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(new Flup());
 
+
+// class Flip extends sta
+
 class Flup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Flutter Demo',
+      title: 'FlupChat',
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
