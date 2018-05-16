@@ -21,19 +21,19 @@ class Flup extends StatelessWidget {
             type: BottomNavigationBarType.fixed,
             items: <BottomNavigationBarItem>[
               new BottomNavigationBarItem(
-                title: new Text('主页'),
+                title: new Text('发现'),
                 icon: new Icon(
                   Icons.refresh
                 )
               ),
               new BottomNavigationBarItem(
-                title: new Text('AAA'),
+                title: new Text('搜索'),
                 icon: new Icon(
                   Icons.account_box
                 )
               ),
               new BottomNavigationBarItem(
-                title: new Text('BBB'),
+                title: new Text('文章'),
                 icon: new Icon(
                   Icons.access_time
                 )
