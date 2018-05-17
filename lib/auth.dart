@@ -1,23 +1,24 @@
-import 'package:flutter/material.dart';
+// class Flup extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return new Text('AAA');
+//   }
+// }
 
-void main() => runApp(new Login());
+// // class Login extends StatefulWidget {
+// //   final bool loading = false;
 
-class Login extends StatefulWidget {
-  final bool loading = false;
+// //   @override
+// //   _LoginState createState() => new _LoginState();
+// // }
 
-  @override
-  _LoginState createState() => new _LoginState();
-}
-
-class _LoginState extends State<Login> {
-  @override
-  Widget build (BuildContext context) {
-    return new MaterialApp(
-      title: '11',
-      home: new Container(
-        child: new Text('AAA'),
-      ),
-      // body: new Text('AAA'),
-    );
-  }
-}
+// // class _LoginState extends State<Login> {
+// //   @override
+// //   Widget build (BuildContext context) {
+// //     return new MaterialApp(
+// //       title: '11',
+// //       home: new Text('AAA')
+// //       // body: new Text('AAA'),
+// //     );
+// //   }
+// // }
